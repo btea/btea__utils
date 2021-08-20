@@ -31,3 +31,5 @@ export function isTruly(val: unknown): boolean;
 export function getType(val: unknown): string;
 
 export function deepClone<T>(val: T): T;
+
+export function getTimeNum(time: unknown, type: string): number;
